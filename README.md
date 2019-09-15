@@ -13,6 +13,7 @@ I used passport, morgan, session, body-parser, and express-uncapitalize.
 passport is used for authenticating users and creating a login system.
 morgan is used for logging any get and post request that are made to the server. Used for debugging
 session stores your login information for the duration of the session.
+body-parser is used for parsing through http requests
 express-uncapitalize uncapitalizes any url you have by redirecting you to the url that is not capitalized
 
 NOTE FOR GRADER: Figuring out the login system took me a lot longer than I though it would. So I ended up having to copy and paste some code from project 2 to make it in time. I greatly apologize for this and am willing to accept any peneltys towrds my grade because of this. I will plan on doing better in the future.
